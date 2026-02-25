@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Analysis Tool</title>
+</head>
+<body>
+
+    <h2>Number Analysis Tool</h2>
+
+    <script>
+        // Storing number in a variable
+        let number = 7;   // You can change this value
+
+        // Using ternary operator to check Positive or Negative
+        let result = (number >= 0) ? "Positive Number" : "Negative Number";
+
+        console.log("Given Number:", number);
+        console.log("Positivity Check:", result);
+
+        // Using if-else to check Even or Odd
+        if (number % 2 === 0) {
+            console.log("Parity Check: Even Number");
+        } else {
+            console.log("Parity Check: Odd Number");
+        }
+
+        // Using loop to print numbers from 1 to given number
+        console.log("Numbers from 1 to " + number + ":");
+
+        for (let i = 1; i <= number; i++) {
+            console.log(i);
+        }
+
+    </script>
+
+</body>
+</html>
