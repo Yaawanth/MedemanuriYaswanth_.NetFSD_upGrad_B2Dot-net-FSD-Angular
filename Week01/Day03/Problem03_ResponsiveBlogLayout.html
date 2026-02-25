@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Blog Homepage</title>
+
+    <style>
+        /* Reset some default spacing */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f4f8;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        /* Main container using Flexbox */
+        .blog-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        /* Blog Card */
+        .blog-card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            flex: 0 0 32%;   /* Desktop: 3 columns */
+        }
+
+        .blog-card h2 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .blog-card p {
+            margin-bottom: 15px;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .blog-card button {
+            padding: 8px 12px;
+            border: none;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .blog-card button:hover {
+            background-color: #2980b9;
+        }
+
+        /* Tablet View */
+        @media (max-width: 900px) {
+            .blog-card {
+                flex: 0 0 48%;  /* 2 columns */
+            }
+        }
+
+        /* Mobile View */
+        @media (max-width: 600px) {
+            .blog-card {
+                flex: 0 0 100%; /* 1 column */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Blog Homepage</h1>
+    </header>
+
+    <main class="blog-container">
+
+        <div class="blog-card">
+            <h2>Introduction to HTML</h2>
+            <p>Learn the basics of HTML and how to structure web pages properly using semantic elements.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="blog-card">
+            <h2>Understanding CSS</h2>
+            <p>This article explains CSS styling, selectors, and how to design beautiful web pages.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="blog-card">
+            <h2>Responsive Design</h2>
+            <p>Discover how to create responsive websites using Flexbox, Grid, and media queries.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="blog-card">
+            <h2>JavaScript Basics</h2>
+            <p>An introduction to JavaScript and how it makes web pages interactive and dynamic.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="blog-card">
+            <h2>Web Development Tips</h2>
+            <p>Useful tips and best practices to improve your frontend development skills.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="blog-card">
+            <h2>Deploying Websites</h2>
+            <p>Learn how to deploy your website online using hosting platforms and GitHub.</p>
+            <button>Read More</button>
+        </div>
+
+    </main>
+
+</body>
+</html>
