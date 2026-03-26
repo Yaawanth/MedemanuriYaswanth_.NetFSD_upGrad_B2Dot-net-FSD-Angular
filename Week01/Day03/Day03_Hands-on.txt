@@ -1,0 +1,133 @@
+**DAY-3 Hands-On Activities**
+
+
+**Problem 1: Personal Profile Card (Level-1)**
+
+Scenario
+You are building a simple personal profile card for a portfolio website.
+The card will display a user’s name, role, short bio, and contact button, styled purely using CSS.
+📌 Requirements
+  Create a profile card layout containing:
+•	Name (heading)
+•	Role/title
+•	Short description paragraph
+•	Contact button
+ Apply:
+•	Text formatting (alignment, decoration)
+•	Font styles (font-family, size, weight)
+•	Typography enhancements (line-height, letter-spacing)
+Use the CSS Box Model:
+•	Padding for spacing inside the card
+•	Border to define the card boundary
+•	Margin to separate the card from the page edges
+Add:
+•	Background color
+•	Border radius
+•	Hover effect on the button
+
+🛠️ Technical Constraints
+•	Use only HTML + CSS
+•	No images or icons
+•	No frameworks (Bootstrap, Tailwind, etc.)
+•	Inline CSS not allowed (use <style> or external CSS)
+
+
+🎯 Learning Outcome
+You should be able to:
+•	Understand how CSS styles text and fonts
+•	Apply box model concepts effectively
+•	Style elements using colors, borders, and spacing
+•	Improve visual hierarchy using typography
+
+
+**Problem 2: Product Feature List Section (Level-1)**
+
+Scenario
+You are designing a feature highlight section for a product landing page that lists key features in a visually appealing way.
+📌 Requirements
+ Create a section with:
+•	Section heading
+•	List of 4–5 features
+Style the list using:
+•	Custom fonts
+•	Text color and background color
+•	Border and padding for each feature item
+Use:
+•	CSS selectors (element, class, descendant)
+Apply hover effects on feature items
+
+🛠️ Technical Constraints
+•	Use unordered list (<ul>)
+•	No JavaScript
+•	No layout frameworks
+•	Only basic HTML structure
+🎯 Learning Outcome
+You will be able to:
+•	Practice CSS selectors
+•	Style lists professionally
+•	Improve UI consistency
+
+
+**Problem 3: Responsive Blog Layout (Level-2)**
+
+Scenario
+You are creating a blog homepage that displays articles in a modern responsive layout suitable for desktop, tablet, and mobile screens.
+📌 Requirements
+Create a page layout with:
+•	Header
+•	Main content area with multiple blog cards
+Use:
+•	Flexbox or CSS Grid for layout
+•	Box model for spacing
+Each blog card should contain:
+•	Title
+•	Short description
+•	Read More button
+Apply:
+•	Background colors
+•	Borders
+•	Typography enhancements
+Use media queries to:
+•	Display multiple columns on desktop
+•	Switch to single column on mobile
+🛠️ Technical Constraints
+•	Only HTML + CSS
+•	No CSS frameworks
+•	No fixed widths (use percentages or flexible units)
+🎯 Learning Outcome
+Learners should be able to:
+•	Understand Flexbox/Grid layouts
+•	Apply responsive design principles
+•	Write effective media queries
+•	Build real-world page layouts
+
+
+**Problem 4: Responsive Dashboard Layout (Level-2)**
+Scenario
+You are designing a simple admin dashboard layout for a web application.
+📌 Requirements
+Create a layout with:
+•	Sidebar navigation
+•	Main content area
+•	Info cards inside the main section
+Use:
+•	display properties
+•	Flexbox or Grid for page structure
+Style:
+•	Sidebar with background color
+•	Cards with borders, padding, and margins
+Apply media queries to:
+•	Convert sidebar into top navigation on mobile
+•	Stack cards vertically on small screens
+
+🛠️ Technical Constraints
+•	HTML + CSS only
+•	No JavaScript
+•	No external UI libraries
+
+🎯 Learning Outcome
+You will be able to:
+•	Master page layouts using Flexbox/Grid
+•	Apply modern responsive web design techniques
+•	Understand how layout adapts across devices
+•	Build industry-relevant UI structures

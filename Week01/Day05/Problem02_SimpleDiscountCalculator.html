@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Discount Calculator</title>
+</head>
+<body>
+
+    <h2>Online Store Discount Calculator</h2>
+
+    <script>
+        // Storing purchase amount in a variable (hardcoded)
+        let amount = 4500;
+
+        // Declaring variables for discount and final amount
+        let discount = 0;
+        let finalAmount = 0;
+
+        // Applying discount rules using if-else
+        if (amount >= 5000) {
+            discount = amount * 0.20;   // 20% discount
+        }
+        else if (amount >= 3000) {
+            discount = amount * 0.10;   // 10% discount
+        }
+        else {
+            discount = 0;   // No discount
+        }
+
+        // Calculating final payable amount
+        finalAmount = amount - discount;
+
+        // Displaying results
+        document.write("Purchase Amount: ₹" + amount + "<br>");
+        document.write("Discount Amount: ₹" + discount + "<br>");
+        document.write("Final Payable Amount: ₹" + finalAmount);
+
+        // Also printing in console
+        console.log("Purchase Amount:", amount);
+        console.log("Discount:", discount);
+        console.log("Final Amount:", finalAmount);
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+***DAY-4 Hands-On Activities***
+
+
+**Problem 1: Student Grade Evaluator (Level-1)**
+
+Scenario
+
+A school wants a simple JavaScript program to evaluate a student’s performance 
+based on marks obtained in a subject.
+
+ Requirements
+• Accept the student’s marks as a variable 
+• Use if–else statements to assign grades: 
+• Marks ≥ 75 → Grade A 
+• Marks ≥ 60 → Grade B 
+• Marks ≥ 40 → Grade C 
+• Marks < 40 → Fail 
+Display the grade on the web page or console 
+ 
+ Technical Constraints
+• Use JavaScript variables (let or const)
+• Use numeric data types
+• Use comparison and logical operators
+• No functions or arrays allowed
+• Output using console.log() or document.write()
+
+ Learning Outcome
+You should be able to:
+• Declare and use variables
+• Apply comparison operators
+• Implement conditional logic using if–else
+• Understand decision-making in JavaScript
+
+
+**Problem 2: Simple Discount Calculator (Level-1)**
+
+Scenario
+
+An online store wants to apply a discount based on the total purchase amount.
+
+ Requirements
+• Store purchase amount in a variable
+• Apply discount rules:
+o Amount ≥ 5000 → 20% discount
+o Amount ≥ 3000 → 10% discount
+o Amount < 3000 → No discount
+
+• Calculate and display:
+o Discount amount
+o Final payable amount
+ Technical Constraints
+• Use arithmetic operators
+• Use if–else statements
+• Use only primitive data types
+No user input (hardcoded values allowed)
+
+ Learning Outcome
+You will be able to:
+• Perform calculations using operators
+• Work with expressions
+• Apply conditional statements
+• Build real-world logic using JavaScript basics
+
+
+**Problem 3: Traffic Signal Simulator (Level-2)**
+
+Scenario
+
+A traffic control system needs a JavaScript program that displays instructions based 
+on traffic signal color.
+
+ Requirements
+• Store signal color in a variable ("red", "yellow", "green")
+• Use a switch statement to display:
+• Red → Stop
+• Yellow → Get Ready
+• Green → Go
+
+Handle invalid signal input gracefully
+ Technical Constraints
+• Must use switch–case
+• Use string data types
+• Use console.log() for output
+• No if–else allowed
+
+ Learning Outcome
+Learners should be able to:
+• Use switch statements effectively
+• Compare string values
+• Handle multiple conditions cleanly
+• Understand control flow alternatives
+
+
+**Problem 4: Number Analysis Tool (Level-2)**
+
+Scenario
+
+A utility program is required Number to analyze numbers and provide insights such 
+as positivity, parity, and range.
+
+ Requirements
+• Store a number in a variable
+• Use conditional (ternary) operator to check:
+• Positive or Negative
+• Use if–else to check:
+• Even or Odd
+• Use a loop to print all numbers from 1 to the given number
+
+ Technical Constraints
+• Store a number in a variable
+• Use conditional (ternary) operator to check:
+• Positive or Negative
+• Use if–else to check:
+• Even or Odd
+• Use a loop to print all numbers from 1 to the given number
+
+ Learning Outcome
+You will be able to:
+• Combine multiple control flow techniques
+• Use loops for iteration
+• Apply conditional operators
+• Build multi-step logical programs
